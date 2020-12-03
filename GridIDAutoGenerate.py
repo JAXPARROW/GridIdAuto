@@ -7,7 +7,7 @@ def grid_id():
     now = datetime.now()
     data_time = str(int(now.strftime("%Y%m%d%H%M%S%f")))
     uid = prefix+data_time
-    print(uid)
+    #print(uid)
     return(uid)
 grid_id()
 
